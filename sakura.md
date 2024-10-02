@@ -100,7 +100,7 @@ A medidad que se baja se pueden ver varias imagenes de los Bento.
 ![EjemploBento](img\terminadas\EjemploBento.png "EjemploBento")
 
 
-## Menu
+### Menu
 ![Menu](img\terminadas\Menu.png "Menu")
 
 
@@ -118,7 +118,7 @@ Debajo del menú muestran los platos del menú mediodía y con color rosa indica
 
 En el caso de dispositivos móviles se muestras en un fila en vez de en tres columnas diferentes.
 
-## Carta
+### Carta
 
 ![Carta](img\terminadas\Carta.png "Carta")
 
@@ -131,13 +131,13 @@ Casi todo lo usado aquí ya se vio anteriormente:
  * La estructura cambia de dos columnas a una cuando se ve en pantallas pequeñas
  * Una letra fácil de leer para los nombres y los ingredientes
 
-## Recomendación
+### Recomendación
 
 ![Recomendación](img\terminadas\Recomendación.png "Recomendación")
 
 En esta parte hai un ligero cambio de estilo en donde el rosa se usa para el fondo y el blanco para la letra. El objetivo de esto es para llamar la atención de toda esta parte de la página.
 
-## Mapa
+### Mapa
 
 ![Mapa](img\terminadas\Mapa.png "Mapa")
 
@@ -148,3 +148,44 @@ Justa antes del Footer ponen un mapa interactivo en el que está marcado el rest
 ![Footer](img\terminadas\Footer.png "Footer")
 
 En el Footer muestran todos los datos importantes, horarios e información de contacto, así como enlaces a todas las redes sociales del restaurante y un enlace a el diseñador de la página.
+
+
+# Conclusión
+
+## Bases compositivas del grid 
+
+La web tiene tres zonas diferentes, el Header, el Main y el Footer. Todas poseén un estilo similar, sin embargo en el Header y el Main la mayoría está centrado mientras que en el Footer se usa un diseño con 3 columnas.
+
+El Main a su vez está compuesto de gran multitud de seccciones en estilo Carrusel, aportando gran comodidad a los usuarios de móvil.
+
+## Paletas de color
+
+ * En el Header solo se usan colores apagados y blanco como resalte.
+ * En el Main se usa el Rosa como color para destacar y el negro y blanco para lo demás. Esto aporta armonía. 
+ * En el Footer se usa el color azul de fondo y tonos de grises para lo demás. En esta el color no es aprobechado, no comparte estilo con el resto de la página y al aparecer un logo en azul claro todo se ve bastatne mas.
+
+## Tipografías
+
+Hai varios tipos de tipografía:
+ * Sakura: Es asimétrica, las letras son de diferentes tamaños, está toda en mayuscula y es dificil de leer. Es la que más destaca.
+ * Sushi Bar: En itálica y negrita también es bastante destacable.
+ * Nombres de productos y párrafos: Para estos usa dos tipos diferentes de letras, una monoespaciada y otra que no lo es, esto se debe a que varios textos son imágenes y no se a cuidado demasiado el uso de la tipografía.
+
+
+## Reglas, trucos o conceptos de composición
+
+Hay un menú desplegable y un icono de búsqueda que se muestras al salir del Header y que se mantienen en la zona superior de la página.
+
+Tambien aprobechan el espacio en zonas como en menú superior en el que el logo resalta debido al espacio que tiene de separación. 
+
+## Componentes básicos de UI
+
+ * Icono de búsqueda con posición absoluta en la esquina superior derecha
+ * Menu superior que permite ir a otras páginas del restaurante
+ * Varios menus interactivos que permiter mostras diferentes cosas en esta página web
+ * Mapa de google que muestra el lugar
+
+## Cosas que se podrían mejorar
+
+ * Hay un uso abusivo de las imagenes. Muchos de los textos son imagenes, el menú es una imagen, los bento son todo imagenes. Estas son reescalables, pero varias de las cosas que son imagenes podrían quedar mejor si fueran textos y divs.
+ * El color se podría usar de mejor manera en zonas como el Hedaer y como el Footer, que no aprobechan el color rosa.
